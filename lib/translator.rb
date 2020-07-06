@@ -14,4 +14,4 @@ def get_english_meaning
 end
 
 
-load_library('.lib/emoticons.yml')
+load_library('lib/emoticons.yml')
