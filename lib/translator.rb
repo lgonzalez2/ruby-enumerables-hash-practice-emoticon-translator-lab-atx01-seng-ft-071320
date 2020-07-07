@@ -27,7 +27,7 @@ def get_japanese_emoticon(file_path, emoticon)
     end 
   end 
   
-  j_emoticon = library[english_name][0]
+  j_emoticon = library[english_name][:english]
   
   if j_emoticon != ""
     p j_emoticon
