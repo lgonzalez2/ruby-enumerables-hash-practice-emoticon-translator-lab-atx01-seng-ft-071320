@@ -14,11 +14,10 @@ end
 
 
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file_path, emoticon)
 
   library = load_library(file_path)
   
-
 
   if j_emoticon != ""
     p j_emoticon
