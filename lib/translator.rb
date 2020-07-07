@@ -19,7 +19,13 @@ def get_japanese_emoticon(file_path, emoticon)
   english_name = ""
   library = load_library(file_path)
   
-  
+  library.each do |name, language|
+    language.each do |inner_key, emote|
+      if emoticon == emote
+        english_name = name 
+      end 
+    end 
+  end 
   
 end
 
