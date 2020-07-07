@@ -25,5 +25,18 @@ def get_english_meaning (file_path, emoticon)
   english_name = ""
   library = load_library(file_path)
   
+  library.each do |name, language|
+    language.each do |inner_key, emote|
+      if emoticon == emote
+        english_name = name 
+      end 
+    end 
+  end 
+  
+  if english_name != ""
+    p english_name
+  else 
+    p "Sorry, that emoticon was not found!"
+  end 
 end
 
