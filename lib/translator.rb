@@ -11,10 +11,10 @@ def load_library(file_path)
       key => {:english => value[0], :japanese => value[1]}
     }
     
-    emoticon_hash << new_hash
+    emoticon_array << new_hash
   end 
    
-   emoticon_hash
+   emoticon_array
 end
 
 def get_japanese_emoticon
