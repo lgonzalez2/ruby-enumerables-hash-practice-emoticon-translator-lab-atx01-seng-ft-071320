@@ -11,7 +11,7 @@ def load_library(file_path)
     
     index += 1 
   end 
-   new_hash
+   p new_hash
 end
 
 def get_japanese_emoticon
