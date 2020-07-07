@@ -8,7 +8,7 @@ def load_library(file_path)
   emoticons.each do |key, value|
     index = 0
     new_hash[index] = {
-      key => {:english => value[0], :japanese => value[1]}
+      key. => {:english => value[0], :japanese => value[1]}
     }
     index += 1 
   end 
