@@ -32,7 +32,7 @@ def get_japanese_emoticon(file_path, emoticon)
   if j_emoticon != ""
     p j_emoticon
   else 
-    p 
+    p "Sorry, that emoticon was not found"
   end 
   
 end
