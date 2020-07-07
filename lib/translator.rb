@@ -22,13 +22,15 @@ def get_japanese_emoticon(file_path, emoticon)
   library.each do |name, language|
     language.each do |inner_key, emote|
       if emoticon == emote
-        english_name = name 
+        j_emoticon = library[name][:japanese]
       end 
     end 
   end 
   
   if j_emoticon != ""
     p j_emoticon
+  else 
+    p 
   end 
 end
 
