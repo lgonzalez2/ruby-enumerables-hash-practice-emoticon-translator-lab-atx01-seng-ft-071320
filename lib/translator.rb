@@ -29,7 +29,7 @@ def get_japanese_emoticon
   
   library.each do |name, language|
     if name == english_name
-      j_emoticon = library[0][1]
+      j_emoticon = library[name][1]
     end 
   end 
   
