@@ -22,7 +22,8 @@ end
 
 
 def get_english_meaning (file_path, emoticon)
-  load_libary(file_path)
+  english_name = ""
+  library = load_library(file_path)
   
 end
 
