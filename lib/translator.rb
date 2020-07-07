@@ -8,17 +8,20 @@ def load_library(file_path)
   emoticons.each do |key, value|
     new_hash[key] = {:english => value[0], :japanese => value[1]}
   end 
-  
   new_hash
 end
+
+
+
 
 def get_japanese_emoticon(file_path, new_hash)
   # code goes here
 end
 
+
+
+
 def get_english_meaning (file_path, new_hash)
   # code goes here
 end
 
-
-load_library('lib/emoticons.yml')
