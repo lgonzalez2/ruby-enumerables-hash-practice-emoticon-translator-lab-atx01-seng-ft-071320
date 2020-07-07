@@ -9,7 +9,7 @@ def load_library(file_path)
     new_hash = {
       key => {:english => value[0], :japanese => value[1]}
     }
-    new_hash
+    p new_hash
   end 
    
    new_hash
