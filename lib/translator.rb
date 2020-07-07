@@ -27,12 +27,7 @@ def get_japanese_emoticon
     end 
   end 
   
-  library.each do |name, language|
-    if name == english_name
-      j_emoticon = library[name][1]
-    end 
-  end 
-  
+
   if j_emoticon != ""
     p j_emoticon
   else 
